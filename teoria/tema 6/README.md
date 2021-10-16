@@ -28,11 +28,7 @@ però hauria de ser
 
 f(P) = (y2-y) /(y2-y1) f(R1) + ... 
 
-tal i com es veu al dibuix que apareix al vídeo
-
-
-
-
+tal i com es veu al dibuix que apareix al vídeo\
 
 [Minification filters](https://sites.google.com/upc.edu/grafics-fib/teoria?authuser=1#h.rkazd0zbm3nl)
 
