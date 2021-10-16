@@ -1,0 +1,15 @@
+[submodule "other repos/Grafics"]
+	path = other repos/Grafics
+	url = https://github.com/vicmassy/Grafics
+[submodule "other repos/GRAU-G"]
+	path = other repos/GRAU-G
+	url = https://github.com/llop/GRAU-G
+[submodule "other repos/grafics-shaders"]
+	path = other repos/grafics-shaders
+	url = https://github.com/elena20ruiz/grafics-shaders
+[submodule "other repos/other GRAU-G/GRAU-G"]
+	path = other repos/other GRAU-G/GRAU-G
+	url = https://github.com/LEXHERRE/GRAU-G
+[submodule "other repos/FIB-Grafics"]
+	path = other repos/FIB-Grafics
+	url = https://github.com/jmigual/FIB-Grafics
