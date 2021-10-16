@@ -18,7 +18,17 @@
 
 [Filtrat de textures](https://sites.google.com/upc.edu/grafics-fib/teoria?authuser=1#h.17ccv6agzxbd)
 
-[Magnification filters](https://sites.google.com/upc.edu/grafics-fib/teoria?authuser=1#h.m4ds4sf24bp4)
+[Magnification filters](https://sites.google.com/upc.edu/grafics-fib/teoria?authuser=1#h.m4ds4sf24bp4) Errata:
+
+Quan s'explica interpolació linial, aprox minut 11, es diu que
+
+ f(P) = (y2-x) /(y2-y1) f(R1) + ... 
+
+però hauria de ser 
+
+f(P) = (y2-y) /(y2-y1) f(R1) + ... 
+
+tal i com es veu al dibuix que apareix al vídeo
 
 [Minification filters](https://sites.google.com/upc.edu/grafics-fib/teoria?authuser=1#h.rkazd0zbm3nl)
 
