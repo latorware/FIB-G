@@ -2,7 +2,7 @@
 
 [Introducció](https://sites.google.com/upc.edu/grafics-fib/teoria?authuser=1#h.s0sz4jwz0066)
 
-[Mapping](https://sites.google.com/upc.edu/grafics-fib/teoria?authuser=1#h.dhhiwwbw2pvg)
+[Mapping](https://sites.google.com/upc.edu/grafics-fib/teoria?authuser=1#h.dhhiwwbw2pvg) **Errata:** La fletxa que es dibuixa a 18:07 hauria d'anar cap a la textura de dalt a la dreta. 
 
 [Demo amb Blender](https://sites.google.com/upc.edu/grafics-fib/teoria?authuser=1#h.5ey0n6ekxy6h)
 
