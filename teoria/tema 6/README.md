@@ -32,6 +32,8 @@ tal i com es veu al dibuix que apareix al vídeo
 
 
 
+
+
 [Minification filters](https://sites.google.com/upc.edu/grafics-fib/teoria?authuser=1#h.rkazd0zbm3nl)
 
 [Wrapping modes](https://sites.google.com/upc.edu/grafics-fib/teoria?authuser=1#h.dtcvlxb2uxsd)
