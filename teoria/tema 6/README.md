@@ -28,7 +28,7 @@
 
 [Perspective-correct interpolation](https://sites.google.com/upc.edu/grafics-fib/teoria?authuser=1#h.j8zg0gqscokn)
 
-** FINS AQUÍ PRIMER QÜESTIONARI ATENEA
+** FINS AQUÍ PRIMER QÜESTIONARI ATENEA **
 
 [Projective texture mapping](https://sites.google.com/upc.edu/grafics-fib/teoria?authuser=1#h.wcuml0cs5llb)
 
