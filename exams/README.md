@@ -1,0 +1,1 @@
+[All examns](https://upcommons.upc.edu/handle/2117/134992/discover?field=course&filtertype=course&filter_relational_operator=equals&rpp=60&sort_by=dc.date.issued_dt&order=desc&filter=GR%C3%80FICS+-+270022)
