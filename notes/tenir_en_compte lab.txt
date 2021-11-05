@@ -55,7 +55,7 @@ uniform vec2 mousePosition;  (window space)
 |||||||||||||||||||||||||||||||||||||||||||
 OTHER: 
 En GLARENASL: blau es el z
-sinusoidal: (speed*temps (wt) -> radians es angle)  movement: Asin(wt)  (2PI when freq is in Hz)   (es fa amb suma)  (abs() quan nomes volem la ona positiva (anira el doble de rapid))    velocity: AwCos(wt)	(w frequencia)	
+sinusoidal: w=2PI/PERIOD (speed*temps (wt) -> radians es angle)  movement: Asin(wt)  (2PI when freq is in Hz)   (es fa amb suma)  (abs() quan nomes volem la ona positiva (anira el doble de rapid))    velocity: AwCos(wt)	(w frequencia)	
 Supported component names: 	{x, y, z, w} (ex: points, normals)
 				{r, g, b, a} (colors)
 				{s, t, p, q} (textures)
@@ -64,6 +64,7 @@ PI = acos(-1)
 rotate es fa desde els axis (per tant suara de fer translacio abans i despres)
 en clipping invertir Z posa lo de darrere a davant -> en window gl_FragDepth=1-gl_FragCoord.z;
 Coordenades dispositiu (gl_FragCoord) la z va de 0 a 1
+normalize(normalMatrix * normal);
 
 
 
@@ -72,10 +73,13 @@ fract(x) 	-> part fraccionaria
 mod(x,y) 	-> x modul y
 mix(a,b,t)	-> interpolacio a, b ponderada per t -> (a+t(b-a))   t [0,1]    a b pot ser vectors
 sin(x)
+length(resta dels dos punts) -> per exemple retorna diagonal
+A PARTIR DE CLIPING SCALING NO TE SENTIT SCALE Z
 
 
 Exercicis dificils: 
 Color gradient ((x - (bMIN)) / (bMAx - bMIN))
+oscillate
 
 
 
