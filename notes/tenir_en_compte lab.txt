@@ -47,6 +47,9 @@ uniform vec3 boundingBoxMin;
 uniform vec3 boundingBoxMax;
 uniform vec2 mousePosition;  (window space)
 
+uniform vec4 lightPosition; (eye space)
+uniform FLOAT matShininess;// similar a gl_FrontMaterial.shininess (valor petit, specular mes expandida)
+
 
 
 
@@ -65,6 +68,16 @@ rotate es fa desde els axis (per tant suara de fer translacio abans i despres)
 en clipping invertir Z posa lo de darrere a davant -> en window gl_FragDepth=1-gl_FragCoord.z;
 Coordenades dispositiu (gl_FragCoord) la z va de 0 a 1
 normalize(normalMatrix * normal);
+A PARTIR DE CLIPING SCALING NO TE SENTIT SCALE Z
+normalitzar vectors abans de equacions (N, L, R, V) -> al VS (si il·lum per vertex) o FS (si il·lum per fragment)
+angle incident (N-L) == angle reflectat (N-R))
+COSES DE LLUMS sempre es fan amb coordenades de eye
+PHONG es redueix a = Ka*Ia + Kd*Id*(N*L) + Ks*Is*(R*V)^s     (s matShininess )  (d NO si N*L < 0)  (a NO si R*V < 0) (N*L,  R*V,  scalar product)
+max(0.0, NL) i  max(0.0, RV). En especular s'han de comprovar les dos. 
+R=2(N·L)N-L
+En light al calulcar a eye el P i L no preocuparse per la w, ja que sera 1
+N, L, R, V VEC3
+Per phong a fragment, pasar a aquest N i P en eye. (Realment es podria pasar directe a fragment tant L, N, V)
 
 
 
@@ -74,7 +87,9 @@ mod(x,y) 	-> x modul y
 mix(a,b,t)	-> interpolacio a, b ponderada per t -> (a+t(b-a))   t [0,1]    a b pot ser vectors
 sin(x)
 length(resta dels dos punts) -> per exemple retorna diagonal
-A PARTIR DE CLIPING SCALING NO TE SENTIT SCALE Z
+dot() -> producte escalar. PERO vec * vec ES component a component
+pow(); 
+
 
 
 Exercicis dificils: 
