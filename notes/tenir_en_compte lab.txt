@@ -33,6 +33,9 @@ frontColor
 out: 
 fragColor
 
+uniform:
+uniform sampler2D colormap; (per indicar quina: colorMap0...)
+
 
 altres: 
 gl_FragCoord (READ ONLY)
@@ -58,7 +61,7 @@ uniform FLOAT matShininess;// similar a gl_FrontMaterial.shininess (valor petit,
 |||||||||||||||||||||||||||||||||||||||||||
 OTHER: 
 En GLARENASL: blau es el z
-sinusoidal: w=2PI/PERIOD (speed*temps (wt) -> radians es angle)  movement: Asin(wt)  (2PI when freq is in Hz)   (es fa amb suma)  (abs() quan nomes volem la ona positiva (anira el doble de rapid))    velocity: AwCos(wt)	(w frequencia)	
+sinusoidal: graus*PI/180 = rad  w=2PI/PERIOD (speed*temps (wt) -> radians es angle)  movement: Asin(wt)  (2PI when freq is in Hz)   (es fa amb suma)  (abs() quan nomes volem la ona positiva (anira el doble de rapid))    velocity: AwCos(wt)	(w frequencia)	
 Supported component names: 	{x, y, z, w} (ex: points, normals)
 				{r, g, b, a} (colors)
 				{s, t, p, q} (textures)
@@ -78,6 +81,16 @@ R=2(N·L)N-L
 En light al calulcar a eye el P i L no preocuparse per la w, ja que sera 1
 N, L, R, V VEC3
 Per phong a fragment, pasar a aquest N i P en eye. (Realment es podria pasar directe a fragment tant L, N, V)
+s, t avancen 1 cada cop que es repeteix textura
+multiplidar texCoord o vtexCoord per nombre gran, fa que la textura es multipliqui
+frame = int(mod(time/(time/frame), totalframes))
+time es retorna en segons
+millor fer servir mod
+fer esfera de model -> normalize els vertexs en m space
+NLR I V VEC3, tenen w 0
+NORMAL A FS -> normalize(cross(dFdx(V), dFdy(V)))    V en espai de ull
+fins en eye, w es 1
+int de double no es fa round
 
 
 
@@ -89,12 +102,17 @@ sin(x)
 length(resta dels dos punts) -> per exemple retorna diagonal
 dot() -> producte escalar. PERO vec * vec ES component a component
 pow(); 
+texture(colorMap, vtexCoord)
 
 
 
 Exercicis dificils: 
 Color gradient ((x - (bMIN)) / (bMAx - bMIN))
 oscillate
+explosion   -> vtex = vtex*(vec2(1.0/8, 1.0/6))
+uv-unfold  -> abans de restar SEMPRE PRIMER *2
+Hinomaru bis
+uncover
 
 
 
