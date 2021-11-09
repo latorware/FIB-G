@@ -61,7 +61,7 @@ uniform FLOAT matShininess;// similar a gl_FrontMaterial.shininess (valor petit,
 |||||||||||||||||||||||||||||||||||||||||||
 OTHER: 
 En GLARENASL: blau es el z
-sinusoidal: graus*PI/180 = rad  w=2PI/PERIOD (speed*temps (wt) -> radians es angle)  movement: Asin(wt)  (2PI when freq is in Hz)   (es fa amb suma)  (abs() quan nomes volem la ona positiva (anira el doble de rapid))    velocity: AwCos(wt)	(w frequencia)	
+sinusoidal: ^2 sin i cos mai pot ser negatiu  graus*PI/180 = rad  w=2PI/PERIOD (speed*temps (wt) -> radians es angle)  movement: Asin(wt)  (2PI when freq is in Hz)   (es fa amb suma)  (abs() quan nomes volem la ona positiva (anira el doble de rapid))    velocity: AwCos(wt)	(w frequencia)	
 Supported component names: 	{x, y, z, w} (ex: points, normals)
 				{r, g, b, a} (colors)
 				{s, t, p, q} (textures)
@@ -113,6 +113,18 @@ explosion   -> vtex = vtex*(vec2(1.0/8, 1.0/6))
 uv-unfold  -> abans de restar SEMPRE PRIMER *2
 Hinomaru bis
 uncover
+
+
+
+gl_Position.z = -gl_Position.z;
+
+lluna =     if (vtexCoord.s < 0.4) {
+        float tt = length(vec2(0.4, 0.5) - vtexCoord); 
+        if (tt < 0.3) {
+            float ts = length(vec2(0.5, 0.5) - vtexCoord); 
+            if (ts > 0.3) {
+                fragColor = vec4(1, 1, 1, 1); 
+            }
 
 
 
