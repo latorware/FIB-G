@@ -1,4 +1,5 @@
 # FIB-G (2021-2022 Q1)
+[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/latorware/FIB-G.svg)](https://github.com/latorware/FIB-A)
 
 Graphics - Gràfics - Computación - FIB
 
