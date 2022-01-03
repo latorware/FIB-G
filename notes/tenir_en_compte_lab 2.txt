@@ -1,0 +1,134 @@
+gl_in[i].gl_Position (i fins 3 en un triangle)
+tots els outs de vertex shader son [] en el geometry
+ELS INTS NO, ja que es fa emitvertex de nomes vertex un
+Pot fer el pas a clipping aquest (i no cal el vertex)
+important ordre
+gl_Position anterior no es guarden
+
+
+
+
+EmitVertex() (es poden emetre molts mes)
+EndPrimitive() (a cada triangle strip)
+gl_PrimitiveIDIn == number, per eficiencia
+
+
+
+La normal duna cara, es el producte vectorial de (u = p1-p0, v = p2-p0) trobar dos vectors
+
+
+PLUGINS
+
+scene()->objects().size()
+camera()->getObs() //posicio camera
+camera()->projectionMatrix()
+glwidget()->defaultProgram()
+
+ATENCIOOOOOO: Qt comença dalt esquerre, no baix esquerre
+Desactivar depth_test quan sactiva el gl_blend
+ordre gl_blend: mes llunyans primer, despres els de mes a prop (ordenat es molt costos)
+            Alternativa eficient: primer opacs (sense ordenar), despres transaprents ordenats (tot amb depthtest i depthwrite)
+            no es la mes exacte Encara mes eficient: primer opacs (sense ordenar, depth test i write), despres transparents sense ordenar (amb depthtest sense depth write)
+
+els slots van a -> public slots, tot i que son funcions. Signals nomes criden slots
+time per cridar amb signal, elapsed timer si es vol que el el temps pasi i no faci res mes
+
+Qstring no san de posar els signes de +
+Posar a Qatring un no string llavors: to_string(cosa)
+QString::fromStdString(posar stringg)
+
+EFFECT PLUGGINS -> pre post frame
+
+    timer -> exemple animate vertices plugin -> nomes elapsed
+
+    modelview ja te vector normal per mirar
+
+    EXEMPLE QUE POSA FRAGMENT I VERTEX -> effe./G   tCRT
+    private:
+        QOpenGLShaderProgram* program;
+        QOpenGLShader *fs, *vs;};
+
+
+
+    preFrame() -> san de posar els uniforms
+        glEnable(GL_DEPTH_TEST) glDisable(GL_DEPTH_TEST) -> si desactivat, es mostren primer les ultimes que san escrit
+        glBlendEquation(GL_FUNC_ADD);
+        glBlendFunc(GL_SRC_ALPHA, GL_ONE); o glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA); //esquerre s_factor, dreta d_factor.  
+            color final es src_color*s_factor + src_color*d_factor
+            posibles valors: GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA, GL_ONE, mes
+        glEnable(GL_BLEND)
+        glDepthMask(GL_FALSE) -> si es desactiva semblant a desactivar depth-test, les z no sescriuen
+        glEnable(GL_CULL_FACE); 
+
+
+
+    postFrame() (coses que volem afegir)
+        Exemple: imprimir text
+
+
+
+
+DRAW PLUGIN -> drawScene, drawObject
+    el location es a VertexAttr...    i attrpointer
+    a drawArrays es posa 0, i numero total de vertexs
+    si es fa amb indexs: 
+        canviar als VBO per gl_element_arrat_buffer, no sera array sino gluint, tambe drawElements
+        moltes instancies: glDrawElementsInstanced(... ultim es quantitat instancies)
+    
+    Millor fer GL_TRIANGLES
+
+    per fer indexs, mirar a faces, i agafar indexs
+
+
+    static bool created = false;
+    static GLuint VAO_rect;
+    GLWidget &g = *glwidget();
+    g.makeCurrent();
+
+    // 1. Create VBO Buffers
+    if (!created)
+    {
+        created = true;        
+
+        // Create & bind empty VAO
+        g.glGenVertexArrays(1, &VAO_rect);
+        g.glBindVertexArray(VAO_rect);
+
+        // Create VBO with (x,y,z) coordinates
+        float coords[] = { p0.x(), p0.y(), p0.z(), p1.x(), p1.y(), p1.z(), p3.x(), p3.y(), p3.z(), p2.x(), p2.y(), p2.z() };
+
+        GLuint VBO_coords;
+        g.glGenBuffers(1, &VBO_coords);
+        g.glBindBuffer(GL_ARRAY_BUFFER, VBO_coords);
+        g.glBufferData(GL_ARRAY_BUFFER, sizeof(coords), coords, GL_STATIC_DRAW);
+        g.glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, 0);
+        g.glEnableVertexAttribArray(0);
+        //glBindVertexArray(0);
+
+        float normals[] = { 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0}; // tot es 0,1,0 perque es quad
+
+        GLuint VBO_normals;
+        g.glGenBuffers(1, &VBO_normals);
+        g.glBindBuffer(GL_ARRAY_BUFFER, VBO_normals);
+        g.glBufferData(GL_ARRAY_BUFFER, sizeof(normals), normals, GL_STATIC_DRAW);
+        g.glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 0, 0);
+        g.glEnableVertexAttribArray(1);
+        g.glBindVertexArray(0);
+    }
+
+    // 2. Draw
+    g.glBindVertexArray(VAO_rect);
+    g.glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
+    g.glBindVertexArray(0);
+}
+
+
+
+
+ACTION PLUGIN -> event 
+
+
+
+
+RENDER PLGUIN -> control total -> paintGL()
+

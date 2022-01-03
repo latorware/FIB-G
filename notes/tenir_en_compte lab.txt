@@ -39,7 +39,7 @@ uniform sampler2D colormap; (per indicar quina: colorMap0...)
 
 altres: 
 gl_FragCoord (READ ONLY)
-gl_FragDepth (es pot escriure)
+gl_FragDepth (es PER NOMES escriure)
 
 
 |||||||||||||||||||||||||||||||||||||||||||||
@@ -61,21 +61,21 @@ uniform FLOAT matShininess;// similar a gl_FrontMaterial.shininess (valor petit,
 |||||||||||||||||||||||||||||||||||||||||||
 OTHER: 
 En GLARENASL: blau es el z
-sinusoidal: ^2 sin i cos mai pot ser negatiu  graus*PI/180 = rad  w=2PI/PERIOD (speed*temps (wt) -> radians es angle)  movement: Asin(wt)  (2PI when freq is in Hz)   (es fa amb suma)  (abs() quan nomes volem la ona positiva (anira el doble de rapid))    velocity: AwCos(wt)	(w frequencia)	
+sinusoidal: ^2 sin i cos mai pot ser negatiu  graus*PI/180 = rad  w=2PI/PERIOD (speed*temps (wt) -> radians es angle)  movement: Asin(wt)  (w = 2PI * frequency hz)   (es fa amb suma)  (abs() quan nomes volem la ona positiva (anira el doble de rapid))    velocity: AwCos(wt)	(w frequencia)	
 Supported component names: 	{x, y, z, w} (ex: points, normals)
 				{r, g, b, a} (colors)
 				{s, t, p, q} (textures)
 Matrius en vertical
 PI = acos(-1)
-rotate es fa desde els axis (per tant suara de fer translacio abans i despres)
+rotate es fa desde els axis (per tant suara de fer translacio abans i despres) = T * R * S * vec
 en clipping invertir Z posa lo de darrere a davant -> en window gl_FragDepth=1-gl_FragCoord.z;
 Coordenades dispositiu (gl_FragCoord) la z va de 0 a 1
 normalize(normalMatrix * normal);
 A PARTIR DE CLIPING SCALING NO TE SENTIT SCALE Z
 normalitzar vectors abans de equacions (N, L, R, V) -> al VS (si il·lum per vertex) o FS (si il·lum per fragment)
 angle incident (N-L) == angle reflectat (N-R))
-COSES DE LLUMS sempre es fan amb coordenades de eye
-PHONG es redueix a = Ka*Ia + Kd*Id*(N*L) + Ks*Is*(R*V)^s     (s matShininess )  (d NO si N*L < 0)  (a NO si R*V < 0) (N*L,  R*V,  scalar product)
+COSES DE LLUMS sempre es fan amb coordenades de eye 
+PHONG es redueix a = Ka*Ia + Kd*Id*dot(N*L) + Ks*Is*dot(R*V)^s     (s matShininess )  (d NO si N*L < 0)  (a NO si R*V < 0) (N*L,  R*V,  scalar product)
 max(0.0, NL) i  max(0.0, RV). En especular s'han de comprovar les dos. 
 R=2(N·L)N-L
 En light al calulcar a eye el P i L no preocuparse per la w, ja que sera 1
@@ -91,6 +91,7 @@ NLR I V VEC3, tenen w 0
 NORMAL A FS -> normalize(cross(dFdx(V), dFdy(V)))    V en espai de ull
 fins en eye, w es 1
 int de double no es fa round
+TRANSALCIO NOMES ES FA UNA SUMA
 
 
 
@@ -99,12 +100,25 @@ fract(x) 	-> part fraccionaria
 mod(x,y) 	-> x modul y
 mix(a,b,t)	-> interpolacio a, b ponderada per t -> (a+t(b-a))   t [0,1]    a b pot ser vectors
 sin(x)
+abs()
 length(resta dels dos punts) -> per exemple retorna diagonal
 dot() -> producte escalar. PERO vec * vec ES component a component
 pow(); 
 texture(colorMap, vtexCoord)
+step(200, d)
+smoothstep(200-d, 200+d, d)
 
+float d = length(vtexCoord);
+float width = 0.5*length(vec2(dFdx(d), dFdy(d))); 
+fragColor=vec4(smoothstep(r-width, r+width, d));
 
+gl_FragCoord (al fragment, window space), gl_FragDepth PER ESCRIURE
+
+normalMatrix = transpose(inverse(modelViewMatrix)) (de la submat 3x3 de la mvM)
+
+fragColor = frontColor * texture(colorMap, vtexCoord);
+
+int(mod)
 
 Exercicis dificils: 
 Color gradient ((x - (bMIN)) / (bMAx - bMIN))

@@ -1,0 +1,13 @@
+GLuint indices[] = {0,1,2,3}; 
+GLuint VBO_indices;
+g.glGenBuffers(1, &VBO_indices);
+g.glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, VBO_idnices);
+g.glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
+g.glBindVertexArray(0);
+
+
+
+...
+
+g.glDrawElements(GL_TRIANGLE_STRIP, 4, GL_UNSIGNED_INT, 0); 
+diverses instancies: g.glDrawElementsInstanced(GL_TRIANGLE_STRIP, 4, GL_UNSIGNED_INT, 0, numdeinstancies); 
