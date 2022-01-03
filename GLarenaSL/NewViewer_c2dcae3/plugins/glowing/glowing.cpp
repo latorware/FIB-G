@@ -71,10 +71,10 @@ void drawRect(GLWidget &g)
         g.glBindVertexArray(VAO_rect);
 
         // Create VBO with (x,y,z) coordinates
-        float coords[] = { -1, -1, 0, 
-                            1, -1, 0, 
-                           -1,  1, 0, 
-                            1,  1, 0};
+        float coords[] = { -1, 0, -1, 
+                            1, 0, -1, 
+                           -1,  0, 1, 
+                            1,  0, 1};
 
         GLuint VBO_coords;
         g.glGenBuffers(1, &VBO_coords);
@@ -108,14 +108,16 @@ bool Glowing::paintGL()
     g.glGenerateMipmap(GL_TEXTURE_2D);
 
     // Pass 2. Draw quad using texture
-    g.glClear(GL_DEPTH_BUFFER_BIT | GL_COLOR_BUFFER_BIT);
+    //g.glClear(GL_DEPTH_BUFFER_BIT | GL_COLOR_BUFFER_BIT);
 
     program->bind();
     program->setUniformValue("colorMap", 0);
     program->setUniformValue("SIZE", float(IMAGE_WIDTH));  
 
 // quad covering viewport 
-    program->setUniformValue("modelViewProjectionMatrix", QMatrix4x4() );  
+    program->setUniformValue("modelViewProjectionMatrix",  camera()->projectionMatrix()*camera()->viewMatrix());
+    program->setUniformValue("boundingBoxMin",  scene()->boundingBox().min());
+    program->setUniformValue("boundingBoxMax",  scene()->boundingBox().max());
 
     drawRect(g);
 

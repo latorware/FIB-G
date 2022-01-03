@@ -10,6 +10,7 @@ const int W = 4; // filter size: 2W*2W
 void main()
 {
     vec2 st = (gl_FragCoord.xy - vec2(0.5)) / SIZE;
+    /*
     float a = 1.0/SIZE;
 
     vec4 sum=vec4(0.0);
@@ -29,6 +30,9 @@ void main()
     sum = pow(sum, vec4(5.0));
         
     fragColor = mix(texture2D(colorMap, st), sum, 0.8);
+    */
+
+    fragColor = vec4(0.5,0.5,0.5,1); 
     
 }
 

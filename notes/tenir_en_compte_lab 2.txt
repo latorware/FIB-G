@@ -18,6 +18,16 @@ La normal duna cara, es el producte vectorial de (u = p1-p0, v = p2-p0) trobar d
 
 
 PLUGINS
+    Per reflexe nomes fer: v.(lacoordenada)-boxmin,*(-1)v.(lacoordenada),v.(lacoordenada)+boxmin 
+    glwidget()->makeCurrent()
+    glwidget()->update();
+
+    Nomes te numero el active texture
+
+    NOMES PINTAR LINIES 
+                g.glPolygonMode( GL_FRONT_AND_BACK, GL_LINE ); // activar pintar nomes linies
+                g.glDrawArrays(GL_TRIANGLES, 0, 36);
+                g.glPolygonMode( GL_FRONT_AND_BACK, GL_FILL ); // desactivar
 
 scene()->objects().size()
 camera()->getObs() //posicio camera
@@ -33,9 +43,16 @@ ordre gl_blend: mes llunyans primer, despres els de mes a prop (ordenat es molt 
 els slots van a -> public slots, tot i que son funcions. Signals nomes criden slots
 time per cridar amb signal, elapsed timer si es vol que el el temps pasi i no faci res mes
 
+st = (gl_FragCoord.xy - vec2(0.5)) / SIZE;
 Qstring no san de posar els signes de +
 Posar a Qatring un no string llavors: to_string(cosa)
 QString::fromStdString(posar stringg)
+fs->compileSourceFile(glwidget()->getPluginPath()+"/../shadowmap/shadowmap.frag");
+
+
+posar GLWidget & g = *glwidget() -> sempre que es truqui a glwidget
+g.defaultProgram()->bind(); -> shaders defecte
+sempre que es facin trucades a glwidget, posar makecurrent
 
 EFFECT PLUGGINS -> pre post frame
 
@@ -126,9 +143,36 @@ DRAW PLUGIN -> drawScene, drawObject
 
 
 ACTION PLUGIN -> event 
-
+    intseleccionat=scene()‐>selectedObject();
 
 
 
 RENDER PLGUIN -> control total -> paintGL()
+    si dos pasos i no es vol imprimir pla tota pantalla, llavors uniform boollll
+    en els de location no sa de fer ningun setuniform
+
+    si es fa el paint manual, al principi cal pintar la escena que no pintem: (veure al glowing)
+            g.glClearColor(0,0,0,0);
+            g.glClear(GL_DEPTH_BUFFER_BIT | GL_COLOR_BUFFER_BIT);
+            if (drawPlugin()) drawPlugin()->drawScene();
+
+
+    filtres: 
+        g.glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE); //o GL_REPEAT
+        g.glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE); //o GL_REPEAT
+
+        magnification: 
+            g.glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR ); //mitjana ponderada
+            g.glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST ); //el mes proper
+
+        mignification: 
+            sense mipmap (es a dir sense LODS): 
+                    g.glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST );
+                    g.glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR );
+            
+            amb mipmap: 
+                    g.glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST_MIPMAP_NEAREST );
+                    g.glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_NEAREST );
+                    g.glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST_MIPMAP_LINEAR );
+                    g.glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR );
 

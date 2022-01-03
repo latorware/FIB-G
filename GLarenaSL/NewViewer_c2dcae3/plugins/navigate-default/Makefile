@@ -245,7 +245,7 @@ DIST          = /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/spec_pre.prf \
 		/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/qt_config.prf \
 		/home/latorware/Qt/5.15.2/gcc_64/mkspecs/linux-g++/qmake.conf \
 		/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/spec_post.prf \
-		../../.qmake.stash \
+		../.qmake.stash \
 		/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/exclusive_builds.prf \
 		/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/toolchain.prf \
 		/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/default_pre.prf \
@@ -474,7 +474,7 @@ Makefile: navigate-default.pro /home/latorware/Qt/5.15.2/gcc_64/mkspecs/linux-g+
 		/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/qt_config.prf \
 		/home/latorware/Qt/5.15.2/gcc_64/mkspecs/linux-g++/qmake.conf \
 		/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/spec_post.prf \
-		../../.qmake.stash \
+		../.qmake.stash \
 		/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/exclusive_builds.prf \
 		/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/toolchain.prf \
 		/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/default_pre.prf \
@@ -687,7 +687,7 @@ Makefile: navigate-default.pro /home/latorware/Qt/5.15.2/gcc_64/mkspecs/linux-g+
 /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/qt_config.prf:
 /home/latorware/Qt/5.15.2/gcc_64/mkspecs/linux-g++/qmake.conf:
 /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/spec_post.prf:
-../../.qmake.stash:
+../.qmake.stash:
 /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/exclusive_builds.prf:
 /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/toolchain.prf:
 /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/default_pre.prf:

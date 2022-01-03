@@ -13,25 +13,26 @@ cd drawvbong/ && ( test -e Makefile || /home/latorware/Qt/5.15.2/gcc_64/bin/qmak
  
 'test' is not recognized as an internal or external command,
 operable program or batch file.
+ 
 The system cannot find the path specified.
+ 
 make: *** [Makefile:54: sub-drawvbong-make_first] Error 1
  
 test -d navigate-default/ || mkdir -p navigate-default/
+ 
 cd navigate-default/ && ( test -e Makefile || /home/latorware/Qt/5.15.2/gcc_64/bin/qmake -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/navigate-default/navigate-default.pro ) && c:/programdata/chocolatey/lib/make/tools/install/bin/make.exe -f Makefile 
  
 'test' is not recognized as an internal or external command,
 operable program or batch file.
- 
 The system cannot find the path specified.
- 
 make: *** [Makefile:79: sub-navigate-default-make_first] Error 1
  
 test -d render-default/ || mkdir -p render-default/
- 
 cd render-default/ && ( test -e Makefile || /home/latorware/Qt/5.15.2/gcc_64/bin/qmake -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/render-default/render-default.pro ) && c:/programdata/chocolatey/lib/make/tools/install/bin/make.exe -f Makefile 
  
 'test' is not recognized as an internal or external command,
 operable program or batch file.
+ 
 The system cannot find the path specified.
  
 make: *** [Makefile:104: sub-render-default-make_first] Error 1
@@ -42,13 +43,10 @@ cd shaderLoader/ && ( test -e Makefile || /home/latorware/Qt/5.15.2/gcc_64/bin/q
  
 'test' is not recognized as an internal or external command,
 operable program or batch file.
- 
 The system cannot find the path specified.
- 
 make: *** [Makefile:129: sub-shaderLoader-make_first] Error 1
  
 test -d pluginLoader/ || mkdir -p pluginLoader/
- 
 cd pluginLoader/ && ( test -e Makefile || /home/latorware/Qt/5.15.2/gcc_64/bin/qmake -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/pluginLoader/pluginLoader.pro ) && c:/programdata/chocolatey/lib/make/tools/install/bin/make.exe -f Makefile 
  
 'test' is not recognized as an internal or external command,
@@ -59,7 +57,6 @@ The system cannot find the path specified.
 make: *** [Makefile:154: sub-pluginLoader-make_first] Error 1
  
 test -d effectCRT/ || mkdir -p effectCRT/
- 
 cd effectCRT/ && ( test -e Makefile || /home/latorware/Qt/5.15.2/gcc_64/bin/qmake -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/effectCRT/effectCRT.pro ) && c:/programdata/chocolatey/lib/make/tools/install/bin/make.exe -f Makefile 
  
 'test' is not recognized as an internal or external command,
@@ -70,17 +67,16 @@ The system cannot find the path specified.
 make: *** [Makefile:179: sub-effectCRT-make_first] Error 1
  
 test -d showHelpNg/ || mkdir -p showHelpNg/
- 
 cd showHelpNg/ && ( test -e Makefile || /home/latorware/Qt/5.15.2/gcc_64/bin/qmake -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/showHelpNg/showHelpNg.pro ) && c:/programdata/chocolatey/lib/make/tools/install/bin/make.exe -f Makefile 
  
 'test' is not recognized as an internal or external command,
 operable program or batch file.
- 
 The system cannot find the path specified.
  
 make: *** [Makefile:204: sub-showHelpNg-make_first] Error 1
  
 test -d alphaBlending/ || mkdir -p alphaBlending/
+ 
 cd alphaBlending/ && ( test -e Makefile || /home/latorware/Qt/5.15.2/gcc_64/bin/qmake -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/alphaBlending/alphaBlending.pro ) && c:/programdata/chocolatey/lib/make/tools/install/bin/make.exe -f Makefile 
  
 'test' is not recognized as an internal or external command,
