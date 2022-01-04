@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jan 03 06:52:02 2022
+# Make data base, printed on Tue Jan 04 06:40:48 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ USERPROFILE = C:\Users\lator
 # environment
 LOCALAPPDATA = C:\Users\lator\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-014a9b3a-2260-4842-9ee2-fb48fee7e32f-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-0366ccc9-e6f6-469f-bdc0-666190ebbf95-sock
 # environment
 VSCODE_CWD = C:\Users\lator\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -41,7 +41,7 @@ MAKE_COMMAND := c:/programdata/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_23692_STGLZSKTOEWQUNJE
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_26504_CWODKWCPQXFYHBNX
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -97,7 +97,7 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 23692
+VSCODE_PID = 26504
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -237,7 +237,8 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
 
 # 6 files, no impossibilities in 1 directories.
 
-# Implicit Rules
+# Implic 
+it Rules
 
 # No implicit rules.
 
@@ -298,6 +299,6 @@ GNUmakefile:
 # strcache performance: lookups = 16 / hit rate = 18%
 # hash-table stats:
 # Load=13/8192=0%, Rehash=0, Collisions=0/16=0%
-# Finished Make data base on Mon Jan 03 06:52:02 2022
+# Finished Make data base on Tue Jan 04 06:40:48 2022
 
  
