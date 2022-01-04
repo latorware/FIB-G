@@ -8,6 +8,7 @@
         "functional": "cpp",
         "qpainter": "cpp",
         "cmath": "cpp",
-        "qopenglshaderprogram": "cpp"
+        "qopenglshaderprogram": "cpp",
+        "memory": "cpp"
     }
 }

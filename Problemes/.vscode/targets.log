@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jan 04 06:40:48 2022
+# Make data base, printed on Tue Jan 04 06:44:04 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ USERPROFILE = C:\Users\lator
 # environment
 LOCALAPPDATA = C:\Users\lator\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-0366ccc9-e6f6-469f-bdc0-666190ebbf95-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-56220047-ecfc-4154-9e3e-1b6aa374a39b-sock
 # environment
 VSCODE_CWD = C:\Users\lator\AppData\Local\Programs\Microsoft VS Code
 # environment
@@ -41,7 +41,7 @@ MAKE_COMMAND := c:/programdata/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_26504_CWODKWCPQXFYHBNX
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9340_CSNXTZNENDLPEBSS
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -97,7 +97,7 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 26504
+VSCODE_PID = 9340
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -218,7 +218,8 @@ SESSIONNAME = Console
 ADSK_3DSMAX_X64_2022 = C:\Program Files\Autodesk\3ds Max 2022\
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
-# environment
+# environ 
+ment
 PROCESSOR_REVISION = a502
 # environment
 CHOCOLATEYTOOLSLOCATION = C:\tools
@@ -237,8 +238,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
 
 # 6 files, no impossibilities in 1 directories.
 
-# Implic 
-it Rules
+# Implicit Rules
 
 # No implicit rules.
 
@@ -299,6 +299,6 @@ GNUmakefile:
 # strcache performance: lookups = 16 / hit rate = 18%
 # hash-table stats:
 # Load=13/8192=0%, Rehash=0, Collisions=0/16=0%
-# Finished Make data base on Tue Jan 04 06:40:48 2022
+# Finished Make data base on Tue Jan 04 06:44:04 2022
 
  

@@ -1,9 +1,20 @@
+PACMAN = MATEIX QUE EL EXPLOSION, pero en comptes de dividir el vtexcoord, el que es fa es multiplica
+    : Es a dir, es divideix perque quedi un, i despres es multiplica per que quedi tamany
+    les sumes son iguals (sa de mirar imatge)
+INVERTIR TEXTURA: 
+    A lora de la suma, llavors de sumar es resta (on acaba menys vtexcoord.coordenada)
+    o es fa inversio de dos mix (posar x a lo de y)
+
+Vector::crossProduct()
+
+
 gl_in[i].gl_Position (i fins 3 en un triangle)
 tots els outs de vertex shader son [] en el geometry
 ELS INTS NO, ja que es fa emitvertex de nomes vertex un
 Pot fer el pas a clipping aquest (i no cal el vertex)
 important ordre
 gl_Position anterior no es guarden
+AL FINAL SEMPRE MULTIPLICAR GL PER MODELVIEWPROJECTION SI ES FAN BOUNDINGS
 
 
 
@@ -23,6 +34,7 @@ PLUGINS
     glwidget()->update();
 
     Nomes te numero el active texture
+    draw els arrays numero es el numero de vertexs (no el numero coordenades)
 
     NOMES PINTAR LINIES 
                 g.glPolygonMode( GL_FRONT_AND_BACK, GL_LINE ); // activar pintar nomes linies

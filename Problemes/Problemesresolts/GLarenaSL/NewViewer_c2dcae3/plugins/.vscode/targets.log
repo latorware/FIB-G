@@ -1,0 +1,2399 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+/home/latorware/Qt/5.15.2/gcc_64/bin/qmake -o Makefile plugins.pro
+ 
+process_begin: CreateProcess(NULL, sh.exe -c "/home/latorware/Qt/5.15.2/gcc_64/bin/qmake -o Makefile plugins.pro", ...) failed.
+make (e=2): The system cannot find the file specified.
+make: *** [Makefile:450: Makefile] Error 2
+ 
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Jan 03 08:07:49 2022
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# makefile (from 'Makefile', line 22)
+INSTALL_PROGRAM = install -m 755 -p
+# environment
+LC_ALL = C
+# environment
+_MSYS2_BASH = C:\tools\msys64\usr\bin\bash.exe
+# makefile (from 'Makefile', line 25)
+QINSTALL_PROGRAM = /home/latorware/Qt/5.15.2/gcc_64/bin/qmake -install qinstall -exe
+# environment
+USERPROFILE = C:\Users\lator
+# environment
+LOCALAPPDATA = C:\Users\lator\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-463c73ac-fcea-4128-b445-a7219cd4eeff-sock
+# environment
+VSCODE_CWD = C:\Users\lator\AppData\Local\Programs\Microsoft VS Code
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# makefile (from 'Makefile', line 26)
+DEL_FILE = rm -f
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := c:/programdata/chocolatey/lib/make/tools/install/bin/make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_23692_STGLZSKTOEWQUNJE
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# makefile (from 'Makefile', line 11)
+EQ = =
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\lator\AppData\Roaming\Code\CachedData\899d46d82c4c95423fb7e10e68eba52050e30ba3
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\lator\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# makefile (from 'Makefile', line 32)
+DISTNAME = plugins1.0.0
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = prR
+# makefile (from 'Makefile', line 30)
+TAR = tar -cf
+# makefile (from 'Makefile', line 34)
+SUBTARGETS = sub-drawvbong sub-navigate-default sub-render-default sub-shaderLoader sub-pluginLoader sub-effectCRT sub-showHelpNg sub-alphaBlending
+# environment
+ONEDRIVE = C:\Users\lator\OneDrive
+# makefile (from 'Makefile', line 33)
+DISTDIR = /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/.tmp/plugins1.0.0
+# makefile
+CURDIR := c:/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from 'Makefile', line 14)
+QMAKE = /home/latorware/Qt/5.15.2/gcc_64/bin/qmake
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# makefile (from 'Makefile', line 24)
+QINSTALL = /home/latorware/Qt/5.15.2/gcc_64/bin/qmake -install qinstall
+# environment
+MFLAGS = -prR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 23692
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+*F = $(notdir $*)
+# makefile (from 'Makefile', line 31)
+COMPRESS = gzip -9f
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'Makefile', line 20)
+COPY_DIR = cp -f -R
+# environment
+INTELLIJ IDEA EDUCATIONAL EDITION = C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2021.3\bin;
+# makefile (from 'Makefile', line 23)
+INSTALL_DIR = cp -f -R
+# environment
+JD2_HOME = C:\Users\lator\AppData\Local\JDownloader 2.0
+# environment
+ONEDRIVECONSUMER = C:\Users\lator\OneDrive
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# makefile (from 'Makefile', line 16)
+CHK_DIR_EXISTS = test -d
+# environment
+HOMEPATH = \Users\lator
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# makefile (from 'Makefile', line 17)
+MKDIR = mkdir -p
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;c:\program files\eclipse foundation\jdk-11.0.12.7-hotspot\bin;c:\program files (x86)\vmware\vmware player\bin\;c:\windows\system32;c:\windows;c:\windows\system32\wbem;c:\windows\system32\windowspowershell\v1.0\;c:\windows\system32\openssh\;c:\program files\nvidia corporation\nvidia nvdlisr;c:\programdata\chocolatey\bin;c:\windows\system32;c:\windows;c:\windows\system32\wbem;c:\windows\system32\windowspowershell\v1.0\;c:\windows\system32\openssh\;c:\program files\microsoft sql server\120\tools\binn\;c:\program files\dotnet\;c:\program files\calibre2\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Common Files\Autodesk Shared\;C:\Users\lator\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\lator\AppData\Local\Programs\Python\Python39\;C:\Users\lator\AppData\Local\Microsoft\WindowsApps;C:\Users\lator\AppData\Local\Programs\Microsoft VS Code\bin;C:\tools\gpu\NVFLASH\x64;C:\Program File 
+s\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Qt\5.15.2\mingw81_64\bin;C:\Users\lator\AppData\Roaming\cabal\bin;C:\tools\ghc-9.0.1\bin;C:\Users\lator\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2021.3\bin;
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = DESKTOP-O9K8TPQ
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+_MSYS2_PREFIX = x86_64
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132762938585472307
+# environment
+LOGONSERVER = \\DESKTOP-O9K8TPQ
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = lator
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 19)
+COPY_FILE = cp -f
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+MSFS_SDK = C:\MSFS SDK\
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from 'Makefile', line 28)
+DEL_DIR = rmdir
+# environment
+USERDOMAIN = DESKTOP-O9K8TPQ
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := first
+# makefile (from 'Makefile', line 21)
+INSTALL_FILE = install -m 644 -p
+# makefile (from 'Makefile', line 27)
+SYMLINK = ln -f -s
+# default
+MAKE_VERSION := 4.3
+# makefile (from 'Makefile', line 18)
+COPY = cp -f
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-O9K8TPQ
+# environment
+NUMBER_OF_PROCESSORS = 16
+# makefile (from 'Makefile', line 9)
+MAKEFILE = Makefile
+# environment
+PUBLIC = C:\Users\Public
+# environment
+ASL.LOG = Destination=file
+# environment
+APPDATA = C:\Users\lator\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\lator\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\b861bdf9c0a79940b580fbd69e951cd2-1.63.2-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# makefile (from 'Makefile', line 29)
+MOVE = mv -f
+# environment
+ADSK_3DSMAX_X64_2022 = C:\Program Files\Autodesk\3ds Max 2022\
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = a502
+# environment
+CHOCOLATEYTOOLSLOCATION = C:\tools
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+# variable set hash-table stats:
+# Load=128/1024=12%, Rehash=0, Collisions=14/159=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins, mtime 1641146164): 22 files, no impossibilities.
+
+# 22 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+dist: distdir FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 726):
+	(cd `dirname $(DISTDIR)` && $(TAR) $(DISTNAME).tar $(DISTNAME) && $(COMPRESS) $(DISTNAME).tar) && $(MOVE) `dirname $(DISTDIR)`/$(DISTNAME).tar.gz . && $(DEL_FILE) -r $(DISTDIR)
+
+sub-pluginLoader-install_subtargets: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 165):
+	@test -d pluginLoader/ || mkdir -p pluginLoader/
+	cd pluginLoader/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/pluginLoader/pluginLoader.pro ) && $(MAKE) -f Makefile install
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/lex.prf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_widgets_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickrender_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+FORCE:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+sub-showHelpNg: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  
+ recipe to execute (from 'Makefile', line 200):
+	@test -d showHelpNg/ || mkdir -p showHelpNg/
+	cd showHelpNg/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/showHelpNg/showHelpNg.pro ) && $(MAKE) -f Makefile
+
+check: sub-drawvbong-check sub-navigate-default-check sub-render-default-check sub-shaderLoader-check sub-pluginLoader-check sub-effectCRT-check sub-showHelpNg-check sub-alphaBlending-check
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_core.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickscene2d_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-showHelpNg-qmake_all: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 196):
+	@test -d showHelpNg/ || mkdir -p showHelpNg/
+	cd showHelpNg/ && $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/showHelpNg/showHelpNg.pro
+	cd showHelpNg/ && $(MAKE) -f Makefile qmake_all
+
+sub-drawvbong-qmake_all: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 46):
+	@test -d drawvbong/ || mkdir -p drawvbong/
+	cd drawvbong/ && $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/drawvbong/drawvbong.pro
+	cd drawvbong/ && $(MAKE) -f Makefile qmake_all
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+distclean: sub-drawvbong-distclean sub-navigate-default-distclean sub-render-default-distclean sub-shaderLoader-distclean sub-pluginLoader-distclean sub-effectCRT-distclean sub-showHelpNg-distclean sub-alphaBlending-distclean FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 664):
+	-$(DEL_FILE) Makefile
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickextras.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/linux-g++/qmake.conf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_uitools.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickshapes_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-pluginLoader-all: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 156):
+	@test -d pluginLoader/ || mkdir -p pluginLoader/
+	cd pluginLoader/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/pluginLoader/pluginLoader.pro ) && $(MAKE) -f Makefile all
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_accessibility_support_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmldebug_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-pluginLoader-make_first: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 153):
+	@test -d pluginLoader/ || mkdir -p pluginLoader/
+	cd pluginLoader/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/pluginLoader/pluginLoader.pro ) && $(MAKE) -f Makefile 
+
+sub-navigate-default-benchmark:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 698):
+	@test -d navigate-default/ || mkdir -p navigate-default/
+	cd navigate-default/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/navigate-default/navigate-default.pro ) && $(MAKE) -f Makefile benchmark
+
+sub-showHelpNg-all: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 206):
+	@test -d showHelpNg/ || mkdir -p showHelpNg/
+	cd showHelpNg/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/showHelpNg/showHelpNg.pro ) && $(MAKE) -f Makefile all
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_repparser_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_script.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_designercomponents_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/hom 
+e/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_uitools_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialbus_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginewidgets_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webengine_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_texttospeech_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-drawvbong: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 50):
+	@test -d drawvbong/ || mkdir -p drawvbong/
+	cd drawvbong/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/drawvbong/drawvbong.pro ) && $(MAKE) -f Makefile
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_concurrent.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_fb_support_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-shaderLoader-benchmark:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 704):
+	@test -d shaderLoader/ || mkdir -p shaderLoader/
+	cd shaderLoader/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/shaderLoader/shaderLoader.pro ) && $(MAKE) -f Makefile benchmark
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xml_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_edid_support_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-render-default-distdir: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 741):
+	@test -d render-default/ || mkdir -p render-default/
+	cd render-default/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/render-default/render-default.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/render-default
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/gcc-base.conf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-navigate-default-distclean: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 87):
+	@test -d navigate-default/ || mkdir -p navigate-default/
+	cd navigate-default/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/navigate-default/navigate-default.pro ) && $(MAKE) -f Makefile distclean
+
+sub-alphaBlending-check:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 690):
+	@test -d alphaBlending/ || mkdir -p alphaBlending/
+	cd alphaBlending/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/alphaBlending/alphaBlending.pro ) && $(MAKE) -f Makefile check
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickparticles_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-pluginLoader-distclean: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 162):
+	@test -d pluginLoader/ || mkdir -p pluginLoader/
+	cd pluginLoader/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/pluginLoader/pluginLoader.pro ) && $(MAKE) -f Makefile distclean
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_opengl_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-render-default-all: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 106):
+	@test -d render-default/ || mkdir -p render-default/
+	cd render-default/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/render-default/render-default.pro ) && $(MAKE) -f Makefile all
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gui.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickinput_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-pluginLoader-check:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 681):
+	@test -d pluginLoader/ || mkdir -p pluginLoader/
+	cd pluginLoader/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/pluginLoader/pluginLoader.pro ) && $(MAKE) -f Makefile check
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginecoreheaders_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/g++-unix.conf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-alphaBlending-clean: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never c 
+hecked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 234):
+	@test -d alphaBlending/ || mkdir -p alphaBlending/
+	cd alphaBlending/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/alphaBlending/alphaBlending.pro ) && $(MAKE) -f Makefile clean
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-render-default-distclean: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 112):
+	@test -d render-default/ || mkdir -p render-default/
+	cd render-default/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/render-default/render-default.pro ) && $(MAKE) -f Makefile distclean
+
+benchmark: sub-drawvbong-benchmark sub-navigate-default-benchmark sub-render-default-benchmark sub-shaderLoader-benchmark sub-pluginLoader-benchmark sub-effectCRT-benchmark sub-showHelpNg-benchmark sub-alphaBlending-benchmark
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3d.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_linuxaccessibility_support_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/toolchain.prf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webengine.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginecore_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qml.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3drender_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/g++-base.conf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandcompositor.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-shaderLoader-distdir: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 745):
+	@test -d shaderLoader/ || mkdir -p shaderLoader/
+	cd shaderLoader/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/shaderLoader/shaderLoader.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/shaderLoader
+
+sub-showHelpNg-check:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 687):
+	@test -d showHelpNg/ || mkdir -p showHelpNg/
+	cd showHelpNg/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/showHelpNg/showHelpNg.pro ) && $(MAKE) -f Makefile check
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bluetooth.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+Makefile: plugins.pro /home/latorware/Qt/5.15.2/gcc_64/mkspecs/linux-g++/qmake.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/spec_pre.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/unix.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/linux.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/sanitize.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/gcc-base.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/gcc-base-unix.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/g++-base.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/g++-unix.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/qconfig.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3danimation.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3danimation_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dcore.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dcore_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dextras.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dextras_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dinput.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dinput_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dlogic.pri /hom 
+e/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dlogic_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquick.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquick_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickanimation.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickanimation_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickextras.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickextras_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickinput.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickinput_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickrender.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickrender_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickscene2d.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickscene2d_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3drender.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3drender_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_accessibility_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bluetooth.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bluetooth_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bodymovin_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bootstrap_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_charts.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_charts_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_concurrent.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_concurrent_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_core.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_core_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_datavisualization.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_datavisualization_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_dbus.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_dbus_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_designer.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_designer_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_designercomponents_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_devicediscovery_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_edid_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_egl_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_eglfs_kms_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_eglfsdeviceintegration_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_eventdispatcher_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_fb_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_fontdatabase_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gamepad.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gamepad_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_glx_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gui.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gui_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_help.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_help_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_input_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_kms_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_linuxaccessibility_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_location.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_location_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimedia.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimedia_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimediagsttools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_network.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/ 
+modules/qt_lib_network_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_networkauth.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_networkauth_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_nfc.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_nfc_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_opengl.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_opengl_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_openglextensions.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_openglextensions_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_packetprotocol_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_platformcompositor_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioning.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioning_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioningquick.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioningquick_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_printsupport.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_printsupport_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_purchasing.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_purchasing_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qml.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qml_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmldebug_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmldevtools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmltest.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmltest_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qtmultimediaquicktools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3d.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3d_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3drender.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3drender_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickparticles_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickshapes_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_remoteobjects.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_remoteobjects_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_repparser.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modul 
+es/qt_lib_repparser_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_script.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_script_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scripttools.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scripttools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scxml.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scxml_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sensors.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sensors_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialbus.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialbus_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialport.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialport_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_service_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sql.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sql_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_svg.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_svg_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_testlib.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_testlib_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_texttospeech.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_texttospeech_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_theme_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_uiplugin.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_uitools.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_uitools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_virtualkeyboard.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_virtualkeyboard_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_vulkan_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandclient.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandclient_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandcompositor.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandcompositor_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webchannel.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webchannel_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webengine.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webengine_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginecore.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginecore_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginecoreheaders_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginewidgets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginewidgets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_websockets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_websockets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webview.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webview_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_widgets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_widgets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_x11extras.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_x11extras_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xcb_qpa_lib_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xkbcommon_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xml.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xml_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xmlpatterns.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xmlpatterns_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/qt_functions.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/qt_config.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/linux-g++/qmake.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/spec_post.prf ../.qmake.stash /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/exclusive_builds.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/toolchain.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/default_pre.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/resolve_config.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/default_post.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/warn_on.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/qmake_use.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/file_copies.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/testcase_targets.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/exceptions.prf /home/latorware/Q 
+t/5.15.2/gcc_64/mkspecs/features/yacc.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/lex.prf plugins.pro
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := Makefile
+# automatic
+# * := 
+# automatic
+# < := plugins.pro
+# automatic
+# + := plugins.pro /home/latorware/Qt/5.15.2/gcc_64/mkspecs/linux-g++/qmake.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/spec_pre.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/unix.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/linux.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/sanitize.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/gcc-base.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/gcc-base-unix.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/g++-base.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/g++-unix.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/qconfig.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3danimation.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3danimation_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dcore.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dcore_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dextras.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dextras_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dinput.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dinput_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dlogic.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dlogic_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquick.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquick_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickanimation.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickanimation_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickextras.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickextras_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickinput.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickinput_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickrender.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickrender_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickscene2d.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickscene2d_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3drender.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3drender_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_accessibility_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bluetooth.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bluetooth_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bodymovin_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bootstrap_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_charts.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_charts_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_concurrent.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_concurrent_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_core.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_core_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_datavisualization.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_datavisualization_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_dbus.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_dbus_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_designer.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_designer_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_designercomponents_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_devicediscovery_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_edid_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_egl_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_eglfs_kms_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_eglfsdeviceintegration_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_eventdispatcher_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_fb_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_fontdatabase_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gamepad.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gamepad_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_glx_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gui.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gui_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_help.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_help_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_input_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_kms_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_linuxaccessibility_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_location.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_location_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimedia.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimedia_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimediagsttools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_network.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_network_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_networkauth.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_networkauth_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_nfc.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_nfc_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_opengl.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_opengl_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_openglextensions.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_openglextensions_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_packetprotocol_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_platformcompositor_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioning.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioning_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioningquick.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioningquick_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_printsupport.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_printsupport_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_purchasing.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_purchasing_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qml.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qml_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmldebug_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmldevtools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmltest.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmltest_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qtmultimediaquicktools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3d.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3d_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3drender.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3drender_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender_priva 
+te.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickparticles_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickshapes_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_remoteobjects.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_remoteobjects_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_repparser.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_repparser_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_script.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_script_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scripttools.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scripttools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scxml.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scxml_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sensors.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sensors_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialbus.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialbus_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialport.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialport_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_service_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sql.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sql_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_svg.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_svg_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_testlib.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_testlib_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_texttospeech.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_texttospeech_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_theme_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_uiplugin.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_uitools.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_uitools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_virtualkeyboard.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_virtualkeyboard_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_vulkan_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandclient.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandclient_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandcompositor.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandcompositor_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webchannel.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webchannel_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webengine.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webengine_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginecore.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginecore_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginecoreheaders_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginewidgets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginewidgets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_websockets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_websockets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webview.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webview_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_widgets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_widgets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_x11extras.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_x11extras_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xcb_qpa_lib_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xkbcommon_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xml.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xml_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xmlpatterns.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xmlpatterns_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/qt_functions.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/qt_config.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/linux-g++/qmake.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/spec_post.prf ../.qmake.stash /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/exclusive_builds.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/toolchain.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/default_pre.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/resolve_config.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/default_post.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/warn_on.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/qmake_use.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/file_copies.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/testcase_targets.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/exceptions.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/yacc.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/lex.prf plugins.pro
+# automatic
+# % := 
+# automatic
+# ^ := plugins.pro /home/latorware/Qt/5.15.2/gcc_64/mkspecs/linux-g++/qmake.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/spec_pre.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/unix.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/linux.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/sanitize.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/gcc-base.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/gcc-base-unix.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/g++-base.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/g++-unix.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/qconfig.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3danimation.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3danimation_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dcore.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dcore_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dextras.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dextras_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dinput.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dinput_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dlogic.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dlogic_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquick.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquick_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickanimation.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickanimation_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickextras.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickextras_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickinput.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickinput_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickrender.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickrender_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickscene2d.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickscene2d_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3drender.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3drender_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_accessibility_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bluetooth.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bluetooth_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bodymovin_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bootstrap_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_charts.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_charts_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_concurrent.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_concurrent_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_core.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_core_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_datavisua 
+lization.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_datavisualization_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_dbus.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_dbus_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_designer.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_designer_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_designercomponents_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_devicediscovery_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_edid_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_egl_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_eglfs_kms_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_eglfsdeviceintegration_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_eventdispatcher_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_fb_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_fontdatabase_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gamepad.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gamepad_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_glx_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gui.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gui_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_help.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_help_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_input_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_kms_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_linuxaccessibility_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_location.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_location_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimedia.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimedia_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimediagsttools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_network.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_network_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_networkauth.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_networkauth_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_nfc.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_nfc_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_opengl.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_opengl_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_openglextensions.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_openglextensions_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_packetprotocol_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_platformcompositor_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioning.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioning_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioningquick.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioningquick_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_printsupport.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_printsupport_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_purchasing.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_purchasing_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qml.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qml_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmldebug_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmldevtools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmltest.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmltest_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qtmultimediaquicktools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3d.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3d_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3drender.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3drender_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickparticles_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickshapes_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_remoteobjects.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_remoteobjects_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_repparser.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_repparser_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_script.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_script_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scripttools.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scripttools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scxml.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scxml_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sensors.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sensors_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialbus.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialbus_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialport.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialport_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_service_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sql.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sql_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_svg.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_svg_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_testlib.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_testlib_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_texttospeech.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_texttospeech_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_theme_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_uiplugin.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_uitools.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_uitools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_virtualkeyboard.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_virtualkeyboard_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_vulkan_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandclient.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandclient_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandcompositor.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandcompositor_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webchannel.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_we 
+bchannel_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webengine.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webengine_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginecore.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginecore_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginecoreheaders_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginewidgets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginewidgets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_websockets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_websockets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webview.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webview_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_widgets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_widgets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_x11extras.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_x11extras_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xcb_qpa_lib_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xkbcommon_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xml.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xml_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xmlpatterns.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xmlpatterns_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/qt_functions.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/qt_config.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/spec_post.prf ../.qmake.stash /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/exclusive_builds.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/toolchain.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/default_pre.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/resolve_config.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/default_post.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/warn_on.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/qmake_use.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/file_copies.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/testcase_targets.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/exceptions.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/yacc.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/lex.prf
+# automatic
+# ? := /home/latorware/Qt/5.15.2/gcc_64/mkspecs/linux-g++/qmake.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/spec_pre.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/unix.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/linux.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/sanitize.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/gcc-base.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/gcc-base-unix.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/g++-base.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/g++-unix.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/qconfig.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3danimation.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3danimation_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dcore.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dcore_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dextras.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dextras_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dinput.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dinput_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dlogic.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dlogic_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquick.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquick_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickanimation.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickanimation_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickextras.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickextras_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickinput.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickinput_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickrender.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickrender_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickscene2d.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickscene2d_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3drender.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3drender_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_accessibility_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bluetooth.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bluetooth_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bodymovin_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bootstrap_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_charts.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_charts_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_concurrent.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_concurrent_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_core.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_core_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_datavisualization.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_datavisualization_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_dbus.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_dbus_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_designer.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_designer_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_designercomponents_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_devicediscovery_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_edid_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_egl_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_eglfs_kms_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_eglfsdeviceintegration_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_eventdispatcher_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_fb_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_fontdatabase_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gamepad.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gamepad_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_glx_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gui.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gui_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_help.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_help_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_input_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_kms_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_linuxaccessibility_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_location.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_location_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimedia.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimedia_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimediagsttools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_network.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_network_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_networkauth.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_networkauth_private.pri /home/latorware 
+/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_nfc.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_nfc_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_opengl.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_opengl_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_openglextensions.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_openglextensions_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_packetprotocol_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_platformcompositor_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioning.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioning_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioningquick.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioningquick_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_printsupport.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_printsupport_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_purchasing.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_purchasing_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qml.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qml_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmldebug_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmldevtools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmltest.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmltest_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qtmultimediaquicktools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3d.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3d_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3drender.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3drender_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickparticles_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickshapes_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_remoteobjects.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_remoteobjects_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_repparser.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_repparser_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_script.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_script_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scripttools.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scripttools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scxml.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scxml_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sensors.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sensors_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialbus.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialbus_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialport.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialport_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_service_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sql.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sql_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_svg.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_svg_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_testlib.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_testlib_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_texttospeech.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_texttospeech_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_theme_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_uiplugin.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_uitools.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_uitools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_virtualkeyboard.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_virtualkeyboard_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_vulkan_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandclient.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandclient_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandcompositor.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandcompositor_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webchannel.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webchannel_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webengine.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webengine_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginecore.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginecore_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginecoreheaders_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginewidgets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginewidgets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_websockets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_websockets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webview.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webview_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_widgets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_widgets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_x11extras.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_x11extras_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xcb_qpa_lib_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xkbcommon_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xml.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xml_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xmlpatterns.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xmlpatterns_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/qt_functions.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/qt_config.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/spec_post.prf ../.qmake.stash /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/exclusive_builds.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/toolchain.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/default_pre.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/resolve_config.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/default_post.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/warn_on.prf /home/latorware/Qt/5.15.2/gcc_64/mk 
+specs/features/qmake_use.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/file_copies.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/testcase_targets.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/exceptions.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/yacc.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/lex.prf
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/12=8%
+#  recipe to execute (from 'Makefile', line 450):
+	$(QMAKE) -o Makefile plugins.pro
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scxml_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_network.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-shaderLoader-all: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 131):
+	@test -d shaderLoader/ || mkdir -p shaderLoader/
+	cd shaderLoader/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/shaderLoader/shaderLoader.pro ) && $(MAKE) -f Makefile all
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dcore.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-navigate-default-make_first: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 78):
+	@test -d navigate-default/ || mkdir -p navigate-default/
+	cd navigate-default/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/navigate-default/navigate-default.pro ) && $(MAKE) -f Makefile 
+
+sub-alphaBlending-uninstall_subtargets: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 243):
+	@test -d alphaBlending/ || mkdir -p alphaBlending/
+	cd alphaBlending/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/alphaBlending/alphaBlending.pro ) && $(MAKE) -f Makefile uninstall
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/exceptions.prf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-pluginLoader-distdir: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 749):
+	@test -d pluginLoader/ || mkdir -p pluginLoader/
+	cd pluginLoader/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/pluginLoader/pluginLoader.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/pluginLoader
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_datavisualization_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_kms_support_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dlogic_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmldevtools_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandcompositor_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gamepad.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-navigate-default: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 75):
+	@test -d navigate-default/ || mkdir -p navigate-default/
+	cd navigate-default/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/navigate-default/navigate-default.pro ) && $(MAKE) -f Makefile
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webview.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+distdir: sub-drawvbong-distdir sub-navigate-default-distdir sub-render-default-distdir sub-shaderLoader-distdir sub-pluginLoader-distdir sub-effectCRT-distdir sub-showHelpNg-distdir sub-alphaBlending-distdir FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 729):
+	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
+	$(COPY_FILE) --parents /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/spec_pre.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/unix.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/linux.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/sanitize.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/gcc-base.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/gcc-base-unix.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/g++-base.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/g++-unix.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/qconfig.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3danimation.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3danimation_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dcore.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dcore_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dextras.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dextras_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dinput.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dinput_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dlogic.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dlogic_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquick.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquick_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickanimation.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickanimation_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickextras.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickextras_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_li 
+b_3dquickinput.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickinput_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickrender.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickrender_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickscene2d.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickscene2d_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3drender.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3drender_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_accessibility_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bluetooth.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bluetooth_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bodymovin_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bootstrap_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_charts.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_charts_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_concurrent.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_concurrent_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_core.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_core_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_datavisualization.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_datavisualization_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_dbus.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_dbus_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_designer.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_designer_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_designercomponents_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_devicediscovery_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_edid_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_egl_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_eglfs_kms_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_eglfsdeviceintegration_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_eventdispatcher_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_fb_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_fontdatabase_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gamepad.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gamepad_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_glx_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gui.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gui_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_help.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_help_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_input_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_kms_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_linuxaccessibility_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_location.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_location_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimedia.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimedia_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimediagsttools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_network.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_network_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_networkauth.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_networkauth_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_nfc.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_nfc_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_opengl.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_opengl_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_openglextensions.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_openglextensions_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_packetprotocol_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_platformcompositor_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioning.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioning_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioningquick.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioningquick_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_printsupport.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_printsupport_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_purchasing.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_purchasing_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qml.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qml_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmldebug_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmldevtools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmltest.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmltest_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qtmultimediaquicktools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3d.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3d_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3drender.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3drender_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickparticles_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickshapes_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_remoteobjects.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_remoteobjects_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_repparser.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_repparser_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_script.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_script_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scripttools.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scripttools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scxml.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scxml_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sensors.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_li 
+b_sensors_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialbus.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialbus_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialport.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialport_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_service_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sql.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sql_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_svg.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_svg_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_testlib.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_testlib_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_texttospeech.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_texttospeech_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_theme_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_uiplugin.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_uitools.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_uitools_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_virtualkeyboard.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_virtualkeyboard_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_vulkan_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandclient.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandclient_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandcompositor.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandcompositor_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webchannel.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webchannel_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webengine.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webengine_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginecore.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginecore_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginecoreheaders_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginewidgets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginewidgets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_websockets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_websockets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webview.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webview_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_widgets.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_widgets_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_x11extras.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_x11extras_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xcb_qpa_lib_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xkbcommon_support_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xml.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xml_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xmlpatterns.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xmlpatterns_private.pri /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/qt_functions.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/qt_config.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/linux-g++/qmake.conf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/spec_post.prf ../.qmake.stash /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/exclusive_builds.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/toolchain.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/default_pre.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/resolve_config.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/default_post.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/warn_on.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/qmake_use.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/file_copies.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/testcase_targets.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/exceptions.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/yacc.prf /home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/lex.prf plugins.pro $(DISTDIR)/
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_eglfs_kms_support_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_purchasing_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_purchasing.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xkbcommon_support_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-drawvbong-uninstall_subtargets: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 68):
+	@test -d drawvbong/ || mkdir -p drawvbong/
+	cd drawvbong/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/drawvbong/drawvbong.pro ) && $(MAKE) -f Makefile uninstall
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_texttospeech.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scxml.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/yacc.prf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+make_first: sub-drawvbong-make_first sub-navigate-default-make_first sub-render-default-make_first sub-shaderLoader-make_first sub-pluginLoader-make_first sub-effectCRT-make_first sub-showHelpNg-make_first sub-alphaBlending-make_first FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/spec_post.prf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+uninstall: uninstall_subtargets FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickanimation.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-shaderLoader-install_subtargets: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 140):
+	@test -d shaderLoader/ || mkdir -p shaderLoader/
+	cd shaderLoader/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/shaderLoader/shaderLoader.pro ) && $(MAKE) -f Makefile install
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_widgets.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_printsupport_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmltest.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_opengl.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-alphaBlending-make_first: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 228):
+	@test -d alphaBlending/ || mkdir -p alphaBlending/
+	cd alphaBlending/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/alphaBlending/alphaBlending.pro ) && $(MAKE) -f Makefile 
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_printsupport.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+clean: sub-drawvbong-clean sub-navigate-default-clean sub-render-default-clean sub-shaderLoader-clean sub-pluginLoader-clean sub-effectCRT-clean sub-showHelpNg-clean sub-alphaBlending-clean FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/gcc-base-unix.conf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scripttools_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quicktemplates2_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-navigate-default-distdir: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 737):
+	@test -d navigate-default/ || mkdir -p navigate-default/
+	cd navigate-default/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/navigate-default/navigate-default.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/navigate-default
+
+sub-effectCRT-uninstall_subtargets: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 193):
+	@test -d effectCRT/ || mkdir -p effectCRT/
+	cd effectCRT/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/effectCRT/effectCRT.pro ) && $(MAKE) -f Makefile uninstall
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_vulkan_support_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-shaderLoader-check:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 678):
+	@test -d shaderLoader/ || mkdir -p shaderLoader/
+	cd shaderLoader/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/shaderLoader/shaderLoader.pro ) && $(MAKE) -f Makefile check
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlmodels_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_charts_private.pri:
+#  Imp 
+licit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-alphaBlending-benchmark:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 716):
+	@test -d alphaBlending/ || mkdir -p alphaBlending/
+	cd alphaBlending/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/alphaBlending/alphaBlending.pro ) && $(MAKE) -f Makefile benchmark
+
+sub-showHelpNg-install_subtargets: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 215):
+	@test -d showHelpNg/ || mkdir -p showHelpNg/
+	cd showHelpNg/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/showHelpNg/showHelpNg.pro ) && $(MAKE) -f Makefile install
+
+sub-alphaBlending-qmake_all: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 221):
+	@test -d alphaBlending/ || mkdir -p alphaBlending/
+	cd alphaBlending/ && $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/alphaBlending/alphaBlending.pro
+	cd alphaBlending/ && $(MAKE) -f Makefile qmake_all
+
+sub-pluginLoader-benchmark:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 707):
+	@test -d pluginLoader/ || mkdir -p pluginLoader/
+	cd pluginLoader/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/pluginLoader/pluginLoader.pro ) && $(MAKE) -f Makefile benchmark
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_service_support_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-shaderLoader: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 125):
+	@test -d shaderLoader/ || mkdir -p shaderLoader/
+	cd shaderLoader/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/shaderLoader/shaderLoader.pro ) && $(MAKE) -f Makefile
+
+sub-shaderLoader-clean: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 134):
+	@test -d shaderLoader/ || mkdir -p shaderLoader/
+	cd shaderLoader/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/shaderLoader/shaderLoader.pro ) && $(MAKE) -f Makefile clean
+
+sub-showHelpNg-benchmark:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 713):
+	@test -d showHelpNg/ || mkdir -p showHelpNg/
+	cd showHelpNg/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/showHelpNg/showHelpNg.pro ) && $(MAKE) -f Makefile benchmark
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_svg.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimediawidgets.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-drawvbong-make_first: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 53):
+	@test -d drawvbong/ || mkdir -p drawvbong/
+	cd drawvbong/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/drawvbong/drawvbong.pro ) && $(MAKE) -f Makefile 
+
+plugins.pro:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-04 20:26:44
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/linux.conf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimedia.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sensors.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_help.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3danimation_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3druntimerender.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-navigate-default-install_subtargets: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 90):
+	@test -d navigate-default/ || mkdir -p navigate-default/
+	cd navigate-default/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/navigate-default/navigate-default.pro ) && $(MAKE) -f Makefile install
+
+sub-drawvbong-benchmark:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 695):
+	@test -d drawvbong/ || mkdir -p drawvbong/
+	cd drawvbong/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/drawvbong/drawvbong.pro ) && $(MAKE) -f Makefile benchmark
+
+sub-effectCRT-qmake_all: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 171):
+	@test -d effectCRT/ || mkdir -p effectCRT/
+	cd effectCRT/ && $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/effectCRT/effectCRT.pro
+	cd effectCRT/ && $(MAKE) -f Makefile qmake_all
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sensors_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/exclusive_builds.prf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bootstrap_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-pluginLoader-clean: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 159):
+	@test -d pluginLoader/ || mkdir -p pluginLoader/
+	cd pluginLoader/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/pluginLoader/pluginLoader.pro ) && $(MAKE) -f Makefile clean
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginewidgets.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gui_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_help_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-showHelpNg-distclean: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 212):
+	@test -d showHelpNg/ || mkdir -p showHelpNg/
+	cd showHelpNg/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator 
+/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/showHelpNg/showHelpNg.pro ) && $(MAKE) -f Makefile distclean
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_testlib.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+uninstall_subtargets: sub-drawvbong-uninstall_subtargets sub-navigate-default-uninstall_subtargets sub-render-default-uninstall_subtargets sub-shaderLoader-uninstall_subtargets sub-pluginLoader-uninstall_subtargets sub-effectCRT-uninstall_subtargets sub-showHelpNg-uninstall_subtargets sub-alphaBlending-uninstall_subtargets FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qml_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-alphaBlending: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 225):
+	@test -d alphaBlending/ || mkdir -p alphaBlending/
+	cd alphaBlending/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/alphaBlending/alphaBlending.pro ) && $(MAKE) -f Makefile
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sql.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-drawvbong-install_subtargets: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 65):
+	@test -d drawvbong/ || mkdir -p drawvbong/
+	cd drawvbong/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/drawvbong/drawvbong.pro ) && $(MAKE) -f Makefile install
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3danimation.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3drender_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_input_support_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-alphaBlending-install_subtargets: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 240):
+	@test -d alphaBlending/ || mkdir -p alphaBlending/
+	cd alphaBlending/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/alphaBlending/alphaBlending.pro ) && $(MAKE) -f Makefile install
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/file_copies.prf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-showHelpNg-distdir: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 757):
+	@test -d showHelpNg/ || mkdir -p showHelpNg/
+	cd showHelpNg/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/showHelpNg/showHelpNg.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/showHelpNg
+
+sub-showHelpNg-clean: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 209):
+	@test -d showHelpNg/ || mkdir -p showHelpNg/
+	cd showHelpNg/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/showHelpNg/showHelpNg.pro ) && $(MAKE) -f Makefile clean
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickanimation_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_websockets_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webchannel_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-shaderLoader-uninstall_subtargets: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 143):
+	@test -d shaderLoader/ || mkdir -p shaderLoader/
+	cd shaderLoader/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/shaderLoader/shaderLoader.pro ) && $(MAKE) -f Makefile uninstall
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_scripttools.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimediagsttools_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-drawvbong-distdir: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 733):
+	@test -d drawvbong/ || mkdir -p drawvbong/
+	cd drawvbong/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/drawvbong/drawvbong.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/drawvbong
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandclient_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-render-default-uninstall_subtargets: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 118):
+	@test -d render-default/ || mkdir -p render-default/
+	cd render-default/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/render-default/render-default.pro ) && $(MAKE) -f Makefile uninstall
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/warn_on.prf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xml.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_dbus.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xmlpatterns.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_remoteobjects.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-drawvbong-clean: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 59):
+	@test -d drawvbong/ || mkdir -p drawvbong/
+	cd drawvbong/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/drawvbong/drawvbong.pro ) && $(MAKE) -f Makefile clean
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+sub-effectCRT-benchmark 
+:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 710):
+	@test -d effectCRT/ || mkdir -p effectCRT/
+	cd effectCRT/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/effectCRT/effectCRT.pro ) && $(MAKE) -f Makefile benchmark
+
+sub-render-default-install_subtargets: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 115):
+	@test -d render-default/ || mkdir -p render-default/
+	cd render-default/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/render-default/render-default.pro ) && $(MAKE) -f Makefile install
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bluetooth_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickinput.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+all: sub-drawvbong-all sub-navigate-default-all sub-render-default-all sub-shaderLoader-all sub-pluginLoader-all sub-effectCRT-all sub-showHelpNg-all sub-alphaBlending-all FORCE
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_eglfsdeviceintegration_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bodymovin_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xcb_qpa_lib_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_repparser.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-render-default-benchmark:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 701):
+	@test -d render-default/ || mkdir -p render-default/
+	cd render-default/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/render-default/render-default.pro ) && $(MAKE) -f Makefile benchmark
+
+sub-pluginLoader-qmake_all: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 146):
+	@test -d pluginLoader/ || mkdir -p pluginLoader/
+	cd pluginLoader/ && $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/pluginLoader/pluginLoader.pro
+	cd pluginLoader/ && $(MAKE) -f Makefile qmake_all
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_dbus_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dextras.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioningquick.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dcore_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_designer.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_egl_support_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickscene2d.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-shaderLoader-make_first: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 128):
+	@test -d shaderLoader/ || mkdir -p shaderLoader/
+	cd shaderLoader/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/shaderLoader/shaderLoader.pro ) && $(MAKE) -f Makefile 
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/testcase_targets.prf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webenginecore.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_nfc.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/qmake_use.prf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+qmake_all: sub-drawvbong-qmake_all sub-navigate-default-qmake_all sub-render-default-qmake_all sub-shaderLoader-qmake_all sub-pluginLoader-qmake_all sub-effectCRT-qmake_all sub-showHelpNg-qmake_all sub-alphaBlending-qmake_all FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_datavisualization.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-effectCRT-all: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 181):
+	@test -d effectCRT/ || mkdir -p effectCRT/
+	cd effectCRT/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/effectCRT/effectCRT.pro ) && $(MAKE) -f Makefile all
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_x11extras_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-effectCRT-distclean: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 187):
+	@test -d effectCRT/ || mkdir -p effectCRT/
+	cd effectCRT/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/effectCRT/effectCRT.pro ) && $(MAKE) -f Makefile distclean
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_uiplugin.pri:
+#  Implicit rule search has been done.
+#  File does not exist. 
+
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_network_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-showHelpNg-make_first: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 203):
+	@test -d showHelpNg/ || mkdir -p showHelpNg/
+	cd showHelpNg/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/showHelpNg/showHelpNg.pro ) && $(MAKE) -f Makefile 
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/unix.conf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dinput_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-effectCRT-check:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 684):
+	@test -d effectCRT/ || mkdir -p effectCRT/
+	cd effectCRT/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/effectCRT/effectCRT.pro ) && $(MAKE) -f Makefile check
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioning_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_sql_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-effectCRT-install_subtargets: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 190):
+	@test -d effectCRT/ || mkdir -p effectCRT/
+	cd effectCRT/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/effectCRT/effectCRT.pro ) && $(MAKE) -f Makefile install
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_designer_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_openglextensions.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-drawvbong-check:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 669):
+	@test -d drawvbong/ || mkdir -p drawvbong/
+	cd drawvbong/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/drawvbong/drawvbong.pro ) && $(MAKE) -f Makefile check
+
+sub-effectCRT: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 175):
+	@test -d effectCRT/ || mkdir -p effectCRT/
+	cd effectCRT/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/effectCRT/effectCRT.pro ) && $(MAKE) -f Makefile
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_gamepad_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialport_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dlogic.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_virtualkeyboard_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dextras_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioning.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_virtualkeyboard.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_platformcompositor_support_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialbus.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/qconfig.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/default_pre.prf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-navigate-default-all: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 81):
+	@test -d navigate-default/ || mkdir -p navigate-default/
+	cd navigate-default/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/navigate-default/navigate-default.pro ) && $(MAKE) -f Makefile all
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webview_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_script_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-navigate-default-clean: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 84):
+	@test -d navigate-default/ || mkdir -p navigate-default/
+	cd navigate-default/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/navigate-default/navigate-default.pro ) && $(MAKE) -f Makefile clean
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_networkauth.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_websockets.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_multimedia_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-render-default: FO 
+RCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 100):
+	@test -d render-default/ || mkdir -p render-default/
+	cd render-default/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/render-default/render-default.pro ) && $(MAKE) -f Makefile
+
+sub-effectCRT-make_first: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 178):
+	@test -d effectCRT/ || mkdir -p effectCRT/
+	cd effectCRT/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/effectCRT/effectCRT.pro ) && $(MAKE) -f Makefile 
+
+sub-render-default-check:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 675):
+	@test -d render-default/ || mkdir -p render-default/
+	cd render-default/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/render-default/render-default.pro ) && $(MAKE) -f Makefile check
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dinput.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickrender.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-pluginLoader: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 150):
+	@test -d pluginLoader/ || mkdir -p pluginLoader/
+	cd pluginLoader/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/pluginLoader/pluginLoader.pro ) && $(MAKE) -f Makefile
+
+install: install_subtargets FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_location_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/resolve_config.prf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-navigate-default-check:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 672):
+	@test -d navigate-default/ || mkdir -p navigate-default/
+	cd navigate-default/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/navigate-default/navigate-default.pro ) && $(MAKE) -f Makefile check
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_theme_support_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-drawvbong-all: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 56):
+	@test -d drawvbong/ || mkdir -p drawvbong/
+	cd drawvbong/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/drawvbong/drawvbong.pro ) && $(MAKE) -f Makefile all
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3drender.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+../.qmake.stash:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquick.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-effectCRT-distdir: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 753):
+	@test -d effectCRT/ || mkdir -p effectCRT/
+	cd effectCRT/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/effectCRT/effectCRT.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/effectCRT
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquickextras_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qtmultimediaquicktools_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dutils.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-alphaBlending-all: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 231):
+	@test -d alphaBlending/ || mkdir -p alphaBlending/
+	cd alphaBlending/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/alphaBlending/alphaBlending.pro ) && $(MAKE) -f Makefile all
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/default_post.prf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_openglextensions_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/qt_confi 
+g.prf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3dassetimport.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_svg_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_devicediscovery_support_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_testlib_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_concurrent_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_xmlpatterns_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+install_subtargets: sub-drawvbong-install_subtargets sub-navigate-default-install_subtargets sub-render-default-install_subtargets sub-shaderLoader-install_subtargets sub-pluginLoader-install_subtargets sub-effectCRT-install_subtargets sub-showHelpNg-install_subtargets sub-alphaBlending-install_subtargets FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+sub-render-default-clean: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 109):
+	@test -d render-default/ || mkdir -p render-default/
+	cd render-default/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/render-default/render-default.pro ) && $(MAKE) -f Makefile clean
+
+sub-render-default-make_first: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 103):
+	@test -d render-default/ || mkdir -p render-default/
+	cd render-default/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/render-default/render-default.pro ) && $(MAKE) -f Makefile 
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickwidgets.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-drawvbong-distclean: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 62):
+	@test -d drawvbong/ || mkdir -p drawvbong/
+	cd drawvbong/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/drawvbong/drawvbong.pro ) && $(MAKE) -f Makefile distclean
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_packetprotocol_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-pluginLoader-uninstall_subtargets: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 168):
+	@test -d pluginLoader/ || mkdir -p pluginLoader/
+	cd pluginLoader/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/pluginLoader/pluginLoader.pro ) && $(MAKE) -f Makefile uninstall
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_3dquick_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_remoteobjects_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_fontdatabase_support_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_networkauth_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_waylandclient.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_webchannel.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+qmake: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 656):
+	@$(QMAKE) -o Makefile plugins.pro
+
+sub-shaderLoader-qmake_all: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 121):
+	@test -d shaderLoader/ || mkdir -p shaderLoader/
+	cd shaderLoader/ && $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/shaderLoader/shaderLoader.pro
+	cd shaderLoader/ && $(MAKE) -f Makefile qmake_all
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmlworkerscript.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-alphaBlending-distclean: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 237):
+	@test -d alphaBlending/ || mkdir -p alphaBlending/
+	cd alphaBlending/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/alphaBlending/alphaBlending.pro ) && $(MAKE) -f Makefile distclean
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_glx_support_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-shaderLoader-distclean: FORCE
+#  Implicit rule search has not been done.
+#  
+ Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 137):
+	@test -d shaderLoader/ || mkdir -p shaderLoader/
+	cd shaderLoader/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/shaderLoader/shaderLoader.pro ) && $(MAKE) -f Makefile distclean
+
+sub-effectCRT-clean: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 184):
+	@test -d effectCRT/ || mkdir -p effectCRT/
+	cd effectCRT/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/effectCRT/effectCRT.pro ) && $(MAKE) -f Makefile clean
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_nfc_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+first: make_first
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+sub-navigate-default-qmake_all: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 71):
+	@test -d navigate-default/ || mkdir -p navigate-default/
+	cd navigate-default/ && $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/navigate-default/navigate-default.pro
+	cd navigate-default/ && $(MAKE) -f Makefile qmake_all
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_x11extras.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-alphaBlending-distdir: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 761):
+	@test -d alphaBlending/ || mkdir -p alphaBlending/
+	cd alphaBlending/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/alphaBlending/alphaBlending.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/alphaBlending
+
+sub-navigate-default-uninstall_subtargets: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 93):
+	@test -d navigate-default/ || mkdir -p navigate-default/
+	cd navigate-default/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/navigate-default/navigate-default.pro ) && $(MAKE) -f Makefile uninstall
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quickcontrols2_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_qmltest_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_location.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_eventdispatcher_support_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-render-default-qmake_all: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 96):
+	@test -d render-default/ || mkdir -p render-default/
+	cd render-default/ && $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/render-default/render-default.pro
+	cd render-default/ && $(MAKE) -f Makefile qmake_all
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_core_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3drender.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/common/sanitize.conf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_positioningquick_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/qt_functions.prf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_charts.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_serialport.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+sub-showHelpNg-uninstall_subtargets: FORCE
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 218):
+	@test -d showHelpNg/ || mkdir -p showHelpNg/
+	cd showHelpNg/ && ( test -e Makefile || $(QMAKE) -o Makefile /mnt/c/Users/lator/Documents/GitHub/FIB-G/GLarenaSL/NewViewer_c2dcae3/plugins/showHelpNg/showHelpNg.pro ) && $(MAKE) -f Makefile uninstall
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/features/spec_pre.prf:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/home/latorware/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_quick3d_private.pri:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=311/1024=30%, Rehash=0, Collisions=187/914=20%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 3 (1) / strings = 331 / storage = 17846 B / avg = 53 B
+# current buf: size = 8174 B / used = 1578 B / count = 50 / avg = 31 B
+# other used: total = 16268 B / count = 281 / avg = 57 B
+# other free: total = 80 B / max = 47 B / min = 33 B / avg = 40 B
+
+# strcache performance: lookups = 1022 / hit rate = 67%
+# hash-table stats:
+# Load=331/8192=4%, Rehash=0, Collisions=27/1022=3%
+# Finished Make data base on Mon Jan 03 08:07:49 2022
+
+ 
